@@ -1,5 +1,5 @@
 <?php
-require_once 'inc/headers.php';
+require_once 'inc/header.php';
 require_once 'inc/functions.php';
 
 $input = json_decode(file_get_contents('php://input'));
